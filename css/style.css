@@ -1181,9 +1181,18 @@ footer .credits a {
   border-radius: .3rem;
 }
 
+@media (min-width: 377px) {
+  .services-mf {
+    padding: 15%;
+  }
+}
+
 @media (min-width: 577px) {
   .counter-box {
     margin-bottom: 1.8rem;
+  }
+  .services-mf {
+    padding: 6%;
   }
 }
 
@@ -1200,6 +1209,9 @@ footer .credits a {
   .contact-mf .box-pl2 {
     margin-top: 3rem;
     padding-left: 0rem;
+  }
+  .services-mf {
+    padding: 4%;
   }
 }
 
@@ -1248,17 +1260,26 @@ footer .credits a {
   .box-comments .list-comments .comment-author {
     font-size: 1.5rem;
   }
+  .services-mf {
+    padding: 3%;
+  }
 }
 
 @media (min-width: 992px) {
   .testimonial-box .description {
     padding: 0 8rem;
   }
+  .services-mf {
+    padding: 2%;
+  }
 }
 
 @media (min-width: 1200px) {
   .testimonial-box .description {
     padding: 0 13rem;
+  }
+  .services-mf {
+    padding: 1%;
   }
 }
 
@@ -1321,12 +1342,6 @@ footer .credits a {
   color: white;
 }
 
-.imgex{
-  object-fit: cover;
-  width: 350px;
-  height: 500px;
-}
-
 .reveal{
   justify-content: center;
 }
@@ -1361,8 +1376,6 @@ footer .credits a {
   align-items: center;
   background-color: transparent;
   border-color: transparent;
-  width: 400px;
-  margin-left: -15px;
   margin-top: -150px;
   margin-bottom: 50px;
   justify-content: center;
@@ -1380,6 +1393,7 @@ footer .credits a {
   display: flex;
   justify-content: center;
   align-items: center;
+  vertical-align: middle;
   z-index: 1;
   transform: translateY(150px);
 }
