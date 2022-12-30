@@ -1357,7 +1357,7 @@
 
   <!--/ Section Portfolio Star /-->
   <section id="work" class="portfolio-mf sect-pt4 route">
-    <div class="container reveal">
+    <div class="container reveal" id="portfolio">
       <div class="row">
         <div class="col-sm-12">
           <div class="title-box text-center">
@@ -1371,8 +1371,19 @@
           </div>
         </div>
       </div>
+      <div class="row" id="myBtnContainer" style="justify-content: center;">
+        <button type="button" class="btn btn-dark" onclick="filterSelection('all')"> All</button>
+        <button type="button" class="btn btn-dark" onclick="filterSelection('Robotics')"> Robotics</button>
+        <button type="button" class="btn btn-dark" onclick="filterSelection('Volunteering')"> Volunteering</button>
+        <button type="button" class="btn btn-dark" onclick="filterSelection('Presenting')"> Presenting</button>
+        <button type="button" class="btn btn-dark" onclick="filterSelection('Teams')"> Teams</button>
+        <button type="button" class="btn btn-dark" onclick="filterSelection('Coaching')"> Coaching</button>
+        <button type="button" class="btn btn-dark" onclick="filterSelection('Design')"> Design</button>
+        <button type="button" class="btn btn-dark" onclick="filterSelection('Hobbies')"> Hobbies</button>
+      </div>
+      <div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Robotics">
           <div class="work-box">
             <a href="FLL/2022/IMG-20220320-WA0091.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -1396,7 +1407,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Volunteering">
           <div class="work-box">
             <a href="IEEE/FB_IMG_1638759426647.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -1407,7 +1418,7 @@
                   <div class="col-sm-8">
                     <h2 class="w-title">IEEE <br> Event</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">Voluteering</span> / <span class="w-date">6 Dec. 2021</span>
+                      <span class="w-ctegory">Volunteering</span> / <span class="w-date">6 Dec. 2021</span>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -1420,7 +1431,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Presenting">
           <div class="work-box">
             <a href="Conference/IMG-20190128-WA0024.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -1444,7 +1455,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Teams">
           <div class="work-box">
             <a href="Student Union/IMG-20191030-WA0130.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -1468,7 +1479,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Design">
           <div class="work-box">
             <a href="Designs/IMG_20210318_200432.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -1492,7 +1503,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Presenting">
           <div class="work-box">
             <a href="Interviews/IMG-20210901-WA0032.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -1516,7 +1527,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Robotics">
           <div class="work-box">
             <a href="Arab Robotics and AI/IMG-20210907-WA0081.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -1540,7 +1551,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Robotics">
           <div class="work-box">
             <a href="FLL/2021/FB_IMG_1623416911531.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -1564,7 +1575,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Teams">
           <div class="work-box">
             <a href="Other Teams/FB_IMG_1628974847420.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -1588,7 +1599,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Volunteering">
           <div class="work-box">
             <a href="Work/Voulteering Kayan/IMG-20190608-WA0011.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -1599,7 +1610,7 @@
                   <div class="col-sm-8">
                     <h2 class="w-title">Kayan Academy Teamwork</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">Voluteering</span> / <span class="w-date">1 Aug. 2017</span>
+                      <span class="w-ctegory">Volunteering</span> / <span class="w-date">1 Aug. 2017</span>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -1612,7 +1623,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Robotics">
           <div class="work-box">
             <a href="MicroMouse/FB_IMG_1635757491332.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -1636,7 +1647,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Presenting">
           <div class="work-box">
             <a href="Interviews/IMG-20220327-WA0078.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -1660,7 +1671,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Presenting">
           <div class="work-box">
             <a href="Conference/IMG-20190128-WA0022.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -1684,7 +1695,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Teams">
           <div class="work-box">
             <a href="Interviews/FB_IMG_1650212395350.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -1708,7 +1719,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Teams">
           <div class="work-box">
             <a href="Can Sat/Snapchat-282566209.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -1732,7 +1743,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Presenting">
           <div class="work-box">
             <a href="FLL/2020/IMG-20200714-WA0051.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -1756,7 +1767,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Teams">
           <div class="work-box">
             <a href="MUN/BOD_2949.JPG" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -1780,7 +1791,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Volunteering">
           <div class="work-box">
             <a href="Work/Kindergarten/IMG20210602131937.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -1791,7 +1802,7 @@
                   <div class="col-sm-8">
                     <h2 class="w-title">Working in Kindergarten</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">Voluteering</span> / <span class="w-date">25 May. 2021</span>
+                      <span class="w-ctegory">Volunteering</span> / <span class="w-date">25 May. 2021</span>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -1804,7 +1815,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Hobbies">
           <div class="work-box">
             <a href="Guitar/Screenshot_2022-11-23-08-50-36-06_1c337646f29875672b5a61192b9010f9.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -1828,7 +1839,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Hobbies">
           <div class="work-box">
             <a href="Diving/FB_IMG_1669276644156.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -1852,7 +1863,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Presenting">
           <div class="work-box">
             <a href="Projects/Cap 2.2/IMG20220529091823.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -1876,7 +1887,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Robotics">
           <div class="work-box">
             <a href="MicroMouse/FB_IMG_1635757524389.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -1900,7 +1911,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Robotics">
           <div class="work-box">
             <a href="Interviews/FB_IMG_1650212387706.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -1924,7 +1935,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Robotics">
           <div class="work-box">
             <a href="FLL/2019/IMG-20190331-WA0001.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -1948,7 +1959,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Robotics">
           <div class="work-box">
             <a href="FLL/2021/Screenshot_2021-07-04-14-38-35-48.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -1972,7 +1983,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Robotics">
           <div class="work-box">
             <a href="MicroMouse/Snapchat-1369415999.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -1996,7 +2007,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Coaching">
           <div class="work-box">
             <a href="Coaching/Arab League/FB_IMG_1657185946879.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -2020,7 +2031,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Coaching">
           <div class="work-box">
             <a href="Coaching/Challenge/IMG-20221001-WA0111.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -2044,7 +2055,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Coaching">
           <div class="work-box">
             <a href="Coaching/Explore/FB_IMG_1644698349436.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -2068,7 +2079,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Robotics">
           <div class="work-box">
             <a href="NASA Space Apps/IMG20220930094941.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -2092,7 +2103,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Design">
           <div class="work-box">
             <a href="Designs/IMG202201081859318.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -2116,7 +2127,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Volunteering">
           <div class="work-box">
             <a href="Work/Voulteering Kayan/IMG-20190920-WA0040.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -2127,7 +2138,7 @@
                   <div class="col-sm-8">
                     <h2 class="w-title">Preparing Events at Obour City</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">Voluteering</span> / <span class="w-date">20 Aug. 2019</span>
+                      <span class="w-ctegory">Volunteering</span> / <span class="w-date">20 Aug. 2019</span>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -2140,7 +2151,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 filterDiv Robotics">
           <div class="work-box">
             <a href="FLL/2022/IMG-20220323-WA0090.jpg" data-lightbox="gallery-mf">
               <div class="work-img">
@@ -2166,6 +2177,7 @@
         </div>
         
       </div>
+    </div>
     </div>
   </section>
   <!--/ Section Portfolio End /-->
@@ -2308,6 +2320,54 @@
       }
     }
   </script>
+  <script>
+          filterSelection("all")
+      function filterSelection(c) {
+        var x, i;
+        x = document.getElementsByClassName("filterDiv");
+        if (c == "all") c = "";
+        // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+        for (i = 0; i < x.length; i++) {
+          w3RemoveClass(x[i], "show");
+          if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+        }
+      }
 
+      // Show filtered elements
+      function w3AddClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+          if (arr1.indexOf(arr2[i]) == -1) {
+            element.className += " " + arr2[i];
+          }
+        }
+      }
+
+      // Hide elements that are not selected
+      function w3RemoveClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+          while (arr1.indexOf(arr2[i]) > -1) {
+            arr1.splice(arr1.indexOf(arr2[i]), 1);
+          }
+        }
+        element.className = arr1.join(" ");
+      }
+
+      // Add active class to the current control button (highlight it)
+      var btnContainer = document.getElementById("myBtnContainer");
+      var btns = btnContainer.getElementsByClassName("btn");
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+        });
+      }
+  </script>
 </body>
 </html>
